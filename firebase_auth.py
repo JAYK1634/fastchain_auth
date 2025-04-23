@@ -1,7 +1,8 @@
 import os
 import requests
 
-API_KEY = os.environ.get("FIREBASE_API_KEY")
+API_KEY = os.environ.get("
+AIzaSyBdst7Cj28WmPpMeYSYPVsNFnidDce1R3k")
 
 def signup_user(email, password):
     url = f"https://identitytoolkit.googleapis.com/v1/accounts:signUp?key={API_KEY}"
